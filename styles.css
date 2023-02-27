@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-left: 170px;
+  margin-top: 120px;
+  background-color: #fff;
+  background-image: url(https://www.redditstatic.com/accountmanager/bbb584033aa89e39bad69436c504c9bd.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 10% 100%;
+  background-position: top left;
+  background-attachment: fixed;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.main-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.cnt-btn {
+  display: flex;
+  margin-left: -10px;
+  color: rgb(26, 26, 27);
+  cursor: pointer;
+  border-radius: 40px;
+  border: 2px solid rgb(231, 231, 231);
+  background-color: #fff;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 60px;
+  line-height: 18px;
+  height: 40px;
+}
+img {
+  width: 20px;
+  margin-right: 80px;
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fcfcfb;
+  border-radius: 4px;
+  padding: 22px 12px 10px;
+  height: 48px;
+  margin: 0px;
+  cursor: text;
+  width: 150%;
+  margin: 5px 0;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+#login-btn {
+  background-color: #3394dc;
+  width: 150%;
+  position: relative;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #0079d3;
+  cursor: pointer;
+}
+.form_footer {
+  width: 150%;
+  display: block;
+  font-size: 16px;
+  padding: 24px;
+  margin-left: -20px;
+}
+.divide {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  line-height: 18px;
+}
+.divide::after,
+.divide::before {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  border-radius: 10px;
+  border: 0.5px solid #e0e0e0;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+  padding: 0 70px;
+}
+.or {
+  font-size: 14px;
+  color: #878a8c;
+}
+@media (max-width: 440px) {
+  * {
+    font-size: 14px;
+  }
+  body {
+    width: 50%;
+  }
+}
+@media (min-width: 1920px) and (orientation: landscape) {
+  body {
+    margin-left: 400px;
+  }
+}
